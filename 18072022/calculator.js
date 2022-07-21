@@ -29,8 +29,8 @@ function modulus() {
     document.getElementById('result').innerHTML = sum;
 }
 function clearscreen() {
-    var num1 = document.getElementById('num1').value;
-    var num2 = document.getElementById('num2').value;
+    var num1 = document.getElementById('num1').value ='';
+    var num2 = document.getElementById('num2').value ='';
     var sum = '';
     document.getElementById('result').innerHTML = sum;
 }
