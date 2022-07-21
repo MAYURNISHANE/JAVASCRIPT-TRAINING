@@ -1,0 +1,17 @@
+.form {
+    max-width: 350px;
+    margin: 0 auto;
+    background-color:white;
+    text-align: center;
+    box-shadow: 2px 1px 7px 3px black;
+}
+.inner-login {
+    padding: 20px;
+}
+.login {
+    background-color: wheat;
+    padding: 10px;
+}
+.error {
+    color: red;
+}
