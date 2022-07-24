@@ -1,0 +1,39 @@
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    padding: 10px;
+    background-color: purple;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0;
+    position: relative;
+}
+
+.nav-title {
+    padding: 10px;
+    margin: 0 15px;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.sub-nav {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    padding: 0 10px;
+    top: 47px;
+}
