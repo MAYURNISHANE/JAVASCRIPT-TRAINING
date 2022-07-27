@@ -1,0 +1,163 @@
+.body {
+    margin: 0;
+    background-color: #f4f5f9;
+}
+
+.header,
+.nav,
+.main {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.header,
+.nav {
+    background-color: white;
+}
+
+.inner-header {
+    display: flex;
+    padding: 8px 20px;
+    background-color: #015172;
+    color: white;
+}
+
+.inner-header_left,
+.inner-header_right {
+    width: 50%;
+}
+
+.inner-header_right {
+    text-align: right;
+}
+
+.inner-header_text {
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    position: relative;
+}
+
+.search-logo {
+    color: #015172;
+    background-color: white;
+    border: none;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+
+.header-logo {
+    padding: 5px 30px;
+    border-bottom: 1px solid grey;
+}
+
+.inner-nav {
+    text-align: center;
+    padding: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: large;
+    font-weight: bold;
+    color: #007fb9;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-text,
+.banner-get {
+    text-align: center;
+    font-size: 69px;
+    font-weight: bold;
+    position: absolute;
+    top: 269px;
+    left: 400px;
+}
+
+.banner-get {
+    top: 497px;
+    left: 657px;
+    font-size: 18px;
+    padding: 11px 40px;
+    background-color: #006792;
+    color: white;
+}
+
+.inner-main_1,
+.inner-main_3banner-text {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 0;
+}
+
+.more-doctor {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.more-doctor_para {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 23px;
+}
+
+.dash-line {
+    font-weight: 900;
+    color: #007fb9;
+    margin-bottom: 80px;
+}
+
+.icon-display {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-padding {
+    color: #007fb9;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 80px;
+}
+
+.inner-main_2 {
+    display: flex;
+    padding: 60px 200px;
+}
+
+.inner-main_2text {
+    padding: 5px 0 0 50px;
+}
+
+.inner-main_2text h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inner-main_2text p {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.inner-main_2text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007fb9;
+}
+
+.inner-main_3 {
+    background-color: white;
+}
+
+.inner-main_3img {
+    display: flex;
+}
