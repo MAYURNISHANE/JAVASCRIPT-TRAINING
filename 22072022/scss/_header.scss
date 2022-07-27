@@ -1,0 +1,36 @@
+@mixin inner-header {
+    display: flex;
+    padding: 8px 20px;
+    background-color: #015172;
+    color: white;  
+}
+@mixin width50 {
+    width: 50%;
+}
+@mixin inner-header_right {
+    text-align: right;
+}
+
+@mixin inner-header_text {
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+@mixin search {
+    position: relative;
+}
+
+@mixin search-logo {
+    color: #015172;
+    background-color: white;
+    border: none;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+
+@mixin header-logo {
+    padding: 5px 30px;
+    border-bottom: 1px solid grey;
+}
