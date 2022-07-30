@@ -4,10 +4,8 @@
     <head>
         <title>array examp.</title>
         <style>
-            
-
             .images {
-                width: 800px;
+                width: 400px;
                 background-color: purple;
                 display: none;
             }
@@ -15,15 +13,24 @@
             .images:first-child {
                 display: block;
             }
+
             .img {
-                width: 300px;
+                width: 100%;
                 height: 400px;
+            }
+
+            .block {
+                border: 1px solid black;
+                padding: 8px 10px;
+                margin: 10px;
+                border-radius: 100%;
             }
         </style>
     </head>
 
     <body>
         <div id="mayur"></div>
+        <div id="dots"></div>
         <button onclick="prev()">prev</button>
         <button onclick="next()">next</button>
         <script src="./index.js"></script>

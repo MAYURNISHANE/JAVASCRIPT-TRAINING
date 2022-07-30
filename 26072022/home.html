@@ -4,21 +4,27 @@
     <head>
         <title>array examp.</title>
         <style>
-            .pics {
+            img {
                 width: 400px;
                 height: 200px;
             }
+
             .block {
                 border: 1px solid black;
-                padding: 10px;
+                padding: 10px 15px;
                 margin: 15px;
+                border-radius: 100%;
+            }
+
+            .block:hover {
+                background-color: gainsboro;
             }
         </style>
     </head>
 
     <body>
-        <div  id="result"></div>
-        <div id="dots"></div>
+        <div id="result"></div><br />
+        <div id="dots"></div> <br />
         <button onclick="prev()">prev</button>
         <button onclick="next()">next</button>
         <script src="./home.js"></script>
