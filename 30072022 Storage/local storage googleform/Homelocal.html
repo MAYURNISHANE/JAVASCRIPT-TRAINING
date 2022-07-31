@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>local homepage</title>
+    <style>
+        body {
+            text-align: center;
+            border: 1px solid red;
+            width: 40%;
+            margin: 0 auto;;
+        }
+
+        .name {
+            font-size: 25px;
+            font-weight: bolder;
+        }
+
+        .common {
+            font-size: 23px;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>You are successfully create google account</h2>
+    <h3>Your information are </h3>
+    <div>
+        <span class="name">Full Name - </span>
+        <span class="common" id="firstname"></span>
+        <span class="common" id="lastname"></span>
+    </div>
+    <div>
+        <span class="name">Username - </span>
+        <span class="common" id="username"></span>
+    </div>
+    <div>
+        <span class="name">Password - </span>
+        <span class="common" id="password"></span> 
+    </div>
+    <button onclick="logout()">Logout</button>
+    <script src="./home.js"></script>
+</body>
+
+</html>

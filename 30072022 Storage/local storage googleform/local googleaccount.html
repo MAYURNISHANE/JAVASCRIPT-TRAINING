@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>google account using local storage</title>
+    <link rel="stylesheet" href="./google.css">
+</head>
+
+<body>
+    <div class="login" id="loginsuccess"></div>
+    <div class="block">
+        <div class="left-block">
+            <img class="google-logo" src="./imgs/google logo.jpeg" alt="">
+            <h2 class="h2">Create your Google Account</h2>
+            <h3 class="h3_1">to continue to Gmail</h3>
+            <div class="left-block_name">
+                <div><input class="input-padding" type="text" placeholder="First name" id="firstname">
+                    <div class="error" id="firstnameerror"></div>
+                </div>
+                <div><input class="input-padding" type="text" placeholder="Last name" id="lastname">
+                    <div class="error" id="lastnameerror"></div>
+                </div>
+            </div>
+            <div class="left-block_email">
+                <input class="demo input-padding" type="email" placeholder="Username" id="username">
+                <div class="error" id="usernameerror"></div>
+                <p class="p">You can use letters, number & periods</p>
+            </div>
+            <div class="password">
+                <div><input class="input-padding" type="text" placeholder="Password" id="password">
+                    <div class="error" id="passworderror"></div>
+                </div>
+                <div><input class="input-padding" type="text" placeholder="Confirm" id="confirm">
+                    <div class="error" id="confirmerror"></div>
+                </div>
+            </div>
+            <p class="p">Use 8 or more characters with a mix of letters, numbers & <br />symbol</p>
+            <div class="checkbox-section">
+                <input type="checkbox" class="click">
+                <lable>Show password</lable>
+            </div>
+            <div class="error" id="loginerror"></div>
+            <div class="link-button">
+                <span><a class="link" href="#">Sign in instead</a></span>
+                <span><input type="button" onclick="next()" value="Next" class="button"></span>
+            </div>
+        </div>
+        <div class="right-block">
+            <img src="./imgs/logo side.jpeg" width="250px" height="250px" alt="">
+            <h3 class="h3_2">One account. All of Google <br />working for you.</h3>
+        </div>
+    </div>
+    <script src="./google.js"></script>
+</body>
+
+</html>
