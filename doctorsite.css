@@ -5,7 +5,8 @@
 
 .header,
 .nav,
-.main {
+.main,
+.footor {
     max-width: 1366px;
     margin: 0 auto;
 }
@@ -17,7 +18,7 @@
 
 .inner-header {
     display: flex;
-    padding: 8px 20px;
+    padding: 0 20px;
     background-color: #015172;
     color: white;
 }
@@ -25,6 +26,10 @@
 .inner-header_left,
 .inner-header_right {
     width: 50%;
+}
+
+.inner-header_left {
+    padding: 8px;
 }
 
 .inner-header_right {
@@ -39,6 +44,7 @@
 
 .search {
     position: relative;
+    padding: 8px;
 }
 
 .search-logo {
@@ -160,4 +166,172 @@
 
 .inner-main_3img {
     display: flex;
+}
+
+.inner-main_3banner-block1,
+.inner-main_3banner-block2 {
+    padding: 20px 110px;
+}
+
+.across-h2 {
+    margin: 10px;
+}
+
+.block1-section,
+.block2-section {
+    display: flex;
+    text-align: center;
+    background-color: #f4f5f9;
+    height: 180px;
+}
+
+.block1-section_content {
+    width: 25%;
+    border: 1px solid gainsboro;
+}
+
+.block1-section_content h1,
+.block2-section_content h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.block1-section_content hr,
+.block2-section_content hr {
+    width: 15px;
+    height: 2px;
+    background-color: #007fb9;
+}
+
+.block1-section_content h2,
+.block2-section_content h2 {
+    margin: 5px;
+}
+
+.block1-section_content h5,
+.block2-section_content h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.block1-section_content p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.block2-section_content {
+    background-color: #007fb9;
+    width: 33.33%;
+    color: white;
+}
+
+.block2-section_content hr {
+    background-color: white;
+}
+
+.last-main_block {
+    margin: 50px;
+    text-align: center;
+}
+
+.last-main_block-text1 {
+    border: 1px solid gainsboro;
+    padding: 8px 25px;
+    background-color: #007fb9;
+    color: white;
+}
+
+.last-main_block-text2 {
+    color: #006792;
+    margin-left: 20px;
+}
+
+.contact-block {
+    justify-content: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-name {
+    color: #333333;
+    font-size: 14px;
+}
+
+.contact-no {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact-b {
+    padding: 0px 20px;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.footer-block {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-nav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-footer-links {
+    margin: 0px 15px;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin: 3px;
+}
+
+.footer-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.partners-h {
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+}
+
+.footer-adress {
+    font-size: 12px;
+    padding: 3px;
+}
+
+.license {
+    font-size: 10px;
+    padding: 10px;
+    color: gray;
+}
+
+.partners-li {
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.license-box {
+    padding: 10px;
 }
