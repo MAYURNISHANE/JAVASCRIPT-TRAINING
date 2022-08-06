@@ -1,0 +1,24 @@
+.cars {
+    text-align: center;
+    margin: 50px;
+}
+.car1,
+.car2,
+.car3 {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.img1,
+.img2,
+.img3 {
+    display: none;
+}
+img {
+    width: 100%;
+}
+.active {
+    background-color: black;
+    color: white;
+}
