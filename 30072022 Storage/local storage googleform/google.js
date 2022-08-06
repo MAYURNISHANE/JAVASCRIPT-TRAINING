@@ -29,7 +29,7 @@ function next() {
     else if (password.length < 8) {
         document.getElementById('passworderror').innerHTML = 'please enter minimum 8 character password';
     }
-    else if (confirm == '') {
+    else if (password!=confirm) {
         document.getElementById('confirmerror').innerHTML = 'please  confirm your password';
     }
     else {
