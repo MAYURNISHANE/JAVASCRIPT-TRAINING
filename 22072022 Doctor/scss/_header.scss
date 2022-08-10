@@ -1,12 +1,23 @@
- .inner-header {
-    display: flex;
-    padding: 8px 20px;
-    background-color: #015172;
-    color: white;  
+.header {
+    background-color: white;
 }
-.inner-header_right, .inner-header_left {
+
+.inner-header {
+    display: flex;
+    padding: 0 20px;
+    background-color: #015172;
+    color: white;
+}
+
+.inner-header_left,
+.inner-header_right {
     width: 50%;
 }
+
+.inner-header_left {
+    padding: 8px;
+}
+
 .inner-header_right {
     text-align: right;
 }
@@ -19,6 +30,7 @@
 
 .search {
     position: relative;
+    padding: 8px;
 }
 
 .search-logo {

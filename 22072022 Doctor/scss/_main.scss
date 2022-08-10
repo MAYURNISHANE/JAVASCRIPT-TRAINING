@@ -1,1 +1,151 @@
-$text-align :center;
+.inner-main_1,
+.inner-main_3banner-text {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 0;
+}
+
+.more-doctor {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.more-doctor_para {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 23px;
+}
+
+.dash-line {
+    font-weight: 900;
+    color: #007fb9;
+    margin-bottom: 80px;
+}
+
+.icon-display {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-padding {
+    color: #007fb9;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 80px;
+}
+
+.inner-main_2 {
+    display: flex;
+    padding: 60px 200px;
+}
+
+.inner-main_2text {
+    padding: 5px 0 0 50px;
+}
+
+.inner-main_2text h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inner-main_2text p {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.inner-main_2text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007fb9;
+}
+
+.inner-main_3 {
+    background-color: white;
+}
+
+.inner-main_3img {
+    display: flex;
+}
+
+.inner-main_3banner-block1,
+.inner-main_3banner-block2 {
+    padding: 20px 110px;
+}
+
+.across-h2 {
+    margin: 10px;
+}
+
+.block1-section,
+.block2-section {
+    display: flex;
+    text-align: center;
+    background-color: #f4f5f9;
+    height: 180px;
+}
+
+.block1-section_content {
+    width: 25%;
+    border: 1px solid gainsboro;
+}
+
+.block1-section_content h1,
+.block2-section_content h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.block1-section_content hr,
+.block2-section_content hr {
+    width: 15px;
+    height: 2px;
+    background-color: #007fb9;
+}
+
+.block1-section_content h2,
+.block2-section_content h2 {
+    margin: 5px;
+}
+
+.block1-section_content h5,
+.block2-section_content h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.block1-section_content p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.block2-section_content {
+    background-color: #007fb9;
+    width: 33.33%;
+    color: white;
+}
+
+.block2-section_content hr {
+    background-color: white;
+}
+
+.last-main_block {
+    margin: 50px;
+    text-align: center;
+}
+
+.last-main_block-text1 {
+    border: 1px solid gainsboro;
+    padding: 8px 25px;
+    background-color: #007fb9;
+    color: white;
+}
+
+.last-main_block-text2 {
+    color: #006792;
+    margin-left: 20px;
+}

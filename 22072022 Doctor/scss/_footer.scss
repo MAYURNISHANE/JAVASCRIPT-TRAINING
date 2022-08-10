@@ -1,0 +1,86 @@
+.inner-footer {
+    justify-content: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-name {
+    color: #333333;
+    font-size: 14px;
+}
+
+.contact-no {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact-b {
+    padding: 0px 20px;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.footer-block {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-nav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-footer-links {
+    margin: 0px 15px;
+    font-size: 14px;
+}
+
+.social-icons {
+    margin: 3px;
+}
+
+.footer-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.partners-h {
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+}
+
+.footer-adress {
+    font-size: 12px;
+    padding: 3px;
+}
+
+.license {
+    font-size: 10px;
+    padding: 10px;
+    color: gray;
+}
+
+.partners-li {
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.license-box {
+    padding: 10px;
+}

@@ -1,7 +1,12 @@
- .inner-nav {
+.nav {
+    background-color: white;
+}
+
+.inner-nav {
     text-align: center;
     padding: 15px;
 }
+
 .nav-link {
     text-decoration: none;
     padding: 0 20px;
@@ -14,17 +19,18 @@
     position: relative;
 }
 
-.banner-text_get {
+.banner-text,
+.banner-get {
     text-align: center;
-    font-size: 63px;
+    font-size: 69px;
     font-weight: bold;
     position: absolute;
-    top: 271px;
+    top: 264px;
     left: 400px;
 }
 
 .banner-get {
-    top: 505px;
+    top: 501px;
     left: 657px;
     font-size: 18px;
     padding: 11px 40px;

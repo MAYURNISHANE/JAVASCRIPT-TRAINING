@@ -1,6 +1,4 @@
 @import './scss/common';
-@import './scss/header';
-@import './scss/nav';
 
 .body {
     @include body;
@@ -13,25 +11,7 @@
     @include common;
 }
 
-
-
-.inner-nav {
-    @include inner-nav
-}
-
-.nav-link {
-    @include nav-link
-}
-
-.banner {
-    @include banner
-}
-
-.banner-text,
-.banner-get {
-    @include banner-text_get
-}
-
-.banner-get {
-    @include banner-get
-}
+@import './scss/header';
+@import './scss/nav';
+@import './scss/main';
+@import './scss/footer';
