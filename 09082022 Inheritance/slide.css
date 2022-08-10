@@ -1,0 +1,12 @@
+body {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.apply {
+    width: 1000px;
+    height: 400px;
+}
+button {
+    padding: 10px;
+    background-color:gray;
+}
