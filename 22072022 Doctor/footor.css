@@ -89,3 +89,33 @@
 .license-box {
     padding: 10px;
 }
+@media screen and (min-width:320px) and (max-width:767px) {
+    .body {
+        margin: 0 !important;
+    }
+    .footor {
+        width: 100% !important;
+    }
+    .inner-footer {
+        display: block;
+    }
+    .contact-b {
+        display: none;
+    }
+    .contact-border {
+        border-bottom: 1px solid gray !important;
+        margin: 10px;
+    }
+    .contact-no {
+        font-size: 20px;
+    }
+    .footer-block {
+        width: 100% !important;
+        margin: 0 0 !important;
+        padding: 0 0;
+    }
+    .footer-nav {
+        display: block !important;
+
+    }
+}

@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('button').click(function(){
         $.post('https://dummy.restapiexample.com/api/v1/create',
         { 
-            name: 'Hemant1', 
+            name: 'Hemanshu1', 
             city: 'Nagpur',
             conuntry: 'Pakistan'
         },

@@ -1,0 +1,15 @@
+@import './common';
+@import './header';
+@import './nav';
+@import './main';
+@import './footer';
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .footor {
+        width: 100% !important;
+    }
+    .footer-nav {
+        display: contents !important;
+        width: 100%;
+    }
+}

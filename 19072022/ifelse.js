@@ -8,7 +8,7 @@ function product() {
     else if (num1 < num2) {
         result = "lesser no";
     }
-    else (num1 == num2) {
+    else if (num1 == num2) {
         result = "equal no";
     }
     document.getElementById('result').innerHTML = result;
