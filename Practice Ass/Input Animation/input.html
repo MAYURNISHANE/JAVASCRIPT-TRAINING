@@ -8,12 +8,23 @@
     <title>Input field animation using css</title>
     <link rel="stylesheet" href="./input.css">
 </head>
-
 <body>
+<div class="form">
+    <h1>Login Validation form</h1>
+    <div class="error"  id="Error"></div>
     <div class="input-group">
         <input type="text" id="name" required class="input">
-        <label for="name" class="input-label">First Name</label>
+        <label for="name" class="input-label">Username</label>
+        <div class="error" id="nameError"></div>
     </div>
+    <div class="input-group">
+        <input type="password" id="password" required class="input">
+        <label for="name" class="input-label">Password</label>
+        <div class="error" id="passwordError"></div>
+    </div> </body></br>
+    <button onclick="formVal()">Login</button>
+</div>
+    <script src="./input.js"></script>
 </body>
 
 </html>

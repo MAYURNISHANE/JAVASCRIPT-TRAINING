@@ -1,17 +1,27 @@
-body {
+.form {
     max-width: 400px;
     margin: 0 auto;
+    background-color:rgb(175, 211, 231);
+    border-radius: 30px;
+    box-shadow: 2px 2px 6px 8px whitesmoke;
+    padding: 20px;
+    text-align: center;
 }
 
 .input-group {
     position: relative;
     margin-top: 50px;
 }
+.error {
+    color: red;
+}
 
 .input {
     padding: 10px;
     border: none;
-    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 30px;
     font: inherit;
     color: #242329;
     background-color: transparent;
@@ -36,4 +46,14 @@ body {
 
 .input:is(:focus, :valid) {
     outline-color: red;
+}
+button {
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 20px 10px;
+    background-color: rgb(252, 137, 208);
+}
+button:hover {
+    background-color: green;
+    color: white;
 }
